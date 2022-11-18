@@ -1,0 +1,102 @@
+body{
+    background-color: $color1;
+   
+
+}
+.main{
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:aquamarine;
+    .meniu{
+        padding-top: 17px;
+        .meniuList{
+            .meniuListItem{
+                display:inline-block;
+                margin-left: 67px;
+                font-size: 20px;
+                font-weight: bold;
+                color: blueviolet;
+
+            }
+        }
+    }
+
+    .banner{
+        margin-top: 23px;
+        .bannerImage{
+            width: 90%;
+            display: block;
+            margin:0 auto;
+            
+        } 
+    }
+
+    .article{
+        display: flex;
+        margin-top: 10px;
+        .articlImageDiv{
+            width: 300px;
+
+            .articlImage{
+                width: 300px;
+
+                
+
+            }
+        }
+        .articlContent{
+            width: 590px;
+            margin-left: 10px;
+            .articlTitle{
+                font-size: $title1;
+
+               
+            }
+            .articlTitle:hover{
+                border: 1px solid $titlecolor;
+
+            }
+            .articlTexst{
+                font-size: $textsize;
+
+                    
+            }
+        }
+    }
+
+    .footer{
+        background-color: black;
+        color: wheat;
+        display: flex;
+
+        .footerLeft{
+            width: 300px;
+            margin-left:15px;
+            font-size: $title1;
+
+            .footerLeftList{
+                font-size: $textsize;
+            }
+
+
+        }
+
+
+        .footerCenter{
+            width: 300px;
+            margin-top: 65px;
+            font-size: $textsize;
+
+        }
+
+        .footerRight{
+            width: 300px;
+            font-size: $title1;
+
+        }
+    }
+
+}
+
+
